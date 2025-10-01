@@ -1,15 +1,16 @@
 Algoritmo "exrcio_46_5h_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   :  Elaborar um programa que apresente os valores de convers„o de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   :  Elaborar um programa que apresente os valores de convers√£o de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    C, F: real
 inicio
    para C de 10 ate 100 passo 10 faca
       F <- (C * 9 / 5) + 32
-      escreval(C, " ∞C = ", F:0:2, " ∞F")
+      escreval(C, " ¬∞C = ", F:0:2, " ¬∞F")
    fimpara
+
 Fimalgoritmo
