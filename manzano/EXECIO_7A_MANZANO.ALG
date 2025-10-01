@@ -1,21 +1,22 @@
 Algoritmo "execio_7a_manzano"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Ler uma temperatura em graus Celsius e apresentÃ¡-la convertida em graus Fahrenheit
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 Celsius, fahrenheit: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("A temperatura em Celsius: ")
 leia(Celsius)
 
 fahrenheit <- (9 * Celsius + 160) / 5
 
-escreva("A temperatura em fahrenheit é: ", fahrenheit )
+escreva("A temperatura em fahrenheit Ã©: ", fahrenheit )
+
 
 
 Fimalgoritmo
