@@ -1,15 +1,15 @@
 Algoritmo "exercio_7m_manzano"
-// Disciplina   Lógica de Programação]
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 a, b, c, soma:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 escreva("Digite um valor: ")
 leia(a)
 escreva("Digite o segundo valor: ")
@@ -19,7 +19,8 @@ leia(c)
 
 soma<-(a  + b + c)*2
 
-escreva("O valor da soma é: ",soma)
+escreva("O valor da soma Ã©: ",soma)
+
 
 
 Fimalgoritmo
