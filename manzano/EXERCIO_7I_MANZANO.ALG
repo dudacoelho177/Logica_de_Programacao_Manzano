@@ -1,15 +1,15 @@
 Algoritmo "exercio_7i_manzano"
-// Disciplina   Lógica de Programação]
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa 
-// Descrição   : Ler dois inteiros (variáveis A e B) e imprimir o resultado do quadrado da diferença do primeiro valor pelo segundo
-// Autor(a)    : Gustavo Costa
+// DescriÃ§Ã£o   : Ler dois inteiros (variÃ¡veis A e B) e imprimir o resultado do quadrado da diferenÃ§a do primeiro valor pelo segundo
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 a, b, resultado: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
    escreva("Digite o valor de A: ")
    leia(a)
@@ -18,6 +18,7 @@ Inicio
 
    resultado <- (a - b) * (a - b)
 
-   escreval("O quadrado da diferença é: ", resultado)
+   escreval("O quadrado da diferenÃ§a Ã©: ", resultado)
+
 
 Fimalgoritmo
