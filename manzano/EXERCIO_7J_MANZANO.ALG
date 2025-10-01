@@ -1,15 +1,15 @@
 Algoritmo "exercio_7j_manzano"
-// Disciplina   Lógica de Programação]
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa 
-// Descrição   : Real para dolar
-// Autor(a)    : Gustavo Costa
+// DescriÃ§Ã£o   : Real para dolar
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 cotacao, dolares, reais: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("digite quantos reais vc tem para compar dolar: ")
 leia(reais)
 escreva("Digite a cotacao do dolar: ")
@@ -18,5 +18,6 @@ leia(cotacao)
 dolares<- reais/cotacao
 
 escreva("voce pode compar ",dolares," dolares")
+
 
 Fimalgoritmo
