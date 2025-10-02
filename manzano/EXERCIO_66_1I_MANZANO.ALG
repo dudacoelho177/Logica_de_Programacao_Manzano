@@ -1,11 +1,11 @@
 Algoritmo "exercio_66_1i_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Escreva um programa que apresente a sÃ©rie de Fibonacci atÃ© o dÃ©cimo quinto termo.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a, b, c, i: inteiro
 inicio
    a <- 1
@@ -19,4 +19,5 @@ inicio
       a <- b
       b <- c
    fimpara
+
 Fimalgoritmo
