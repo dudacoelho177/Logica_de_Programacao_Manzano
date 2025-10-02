@@ -1,17 +1,17 @@
 Algoritmo "exercio_7e_manzano"
-// Disciplina   Lógica de Programação
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jaison Costa 
-// Descrição   : Efetuar o cálculo e a apresentação do valor de uma prestação em atraso
-// Autor(a)    : Gustavo Costa
+// DescriÃ§Ã£o   : Efetuar o cÃ¡lculo e a apresentaÃ§Ã£o do valor de uma prestaÃ§Ã£o em atraso
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valor, taxa : real
 tempos, prestacao:real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o valor da divida: ")
 leia(valor)
 escreva("Digite o valor da taxa: ")
@@ -21,7 +21,8 @@ leia(tempos)
 
 prestacao<- valor+(valor*taxa/100)* tempos
 
-escreva("a sua prestação é de: ", prestacao)
+escreva("a sua prestaÃ§Ã£o Ã© de: ", prestacao)
+
 
 
 
