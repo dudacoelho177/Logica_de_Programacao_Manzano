@@ -1,15 +1,15 @@
 Algoritmo "exercio_7c_manzano"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa
-// Descrição   : Calcular e apresentar o valor do volume de uma lata de óleo
-// Autor(a)    : Gustavo Costa
+// DescriÃ§Ã£o   : Calcular e apresentar o valor do volume de uma lata de Ã³leo
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 raio, altura, volume : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite a autura: ")
 leia(altura)
 escreva("Digite o volume: ")
@@ -17,6 +17,7 @@ leia(raio)
 
 volume <- 3,14*raio*altura
 
-escreva("O volume é: ", volume )
+escreva("O volume Ã©: ", volume )
+
 
 Fimalgoritmo
