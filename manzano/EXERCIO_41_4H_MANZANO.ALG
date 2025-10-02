@@ -1,20 +1,21 @@
 Algoritmo "exercio_41_4h_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Efetuar a leitura de cinco números inteiros e identificar o maior e o menor valores.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Efetuar a leitura de cinco nÃºmeros inteiros e identificar o maior e o menor valores.
+// Autor(a)    : Eduarda Coelho
+
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, num, maior, menor: inteiro
 inicio
-   escreval("Digite o 1º número: ")
+   escreval("Digite o 1Âº nÃºmero: ")
    leia(num)
    maior <- num
    menor <- num
 
    para i de 2 ate 5 faca
-      escreval("Digite o ", i, "º número: ")
+      escreval("Digite o ", i, "Âº nÃºmero: ")
       leia(num)
 
       se num > maior entao
@@ -27,4 +28,5 @@ inicio
 
    escreval("Maior valor = ", maior)
    escreval("Menor valor = ", menor)
+
 Fimalgoritmo
