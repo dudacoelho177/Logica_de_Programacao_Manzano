@@ -1,15 +1,16 @@
 Algoritmo "exercio_66_1j_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   : Elaborar um programa que apresente os valores de convers„o de graus Celsius em Fahrenheit, de 10 em 10 graus,
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Elaborar um programa que apresente os valores de convers√£o de graus Celsius em Fahrenheit, de 10 em 10 graus,
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    c, f: real
 inicio
    para c de 10 ate 100 passo 10 faca
       f <- (c * 9/5) + 32
-      escreval(c, " ∫C = ", f, " ∫F")
+      escreval(c, " ¬∫C = ", f, " ¬∫F")
    fimpara
+
 Fimalgoritmo
