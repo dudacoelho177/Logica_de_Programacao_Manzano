@@ -1,11 +1,11 @@
 Algoritmo "exercio_50_j1"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa 
-// DescriÁ„o   : Elaborar um programa que apresente o resultado inteiro da divis„o de dois n˙meros quaisquer. Para a elaboraÁ„o do programa, n„o utilizar em hipÛtese alguma o conceito do operador aritmÈtico DIV. A soluÁ„o deve ser alcanÁada com a utilizaÁ„o de looping. Ou seja, o programa deve apresentar como resultado (quociente) quantas vezes o divisor cabe no dividendo.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Elaborar um programa que apresente o resultado inteiro da divis√£o de dois n√∫meros quaisquer. Para a elabora√ß√£o do programa, n√£o utilizar em hip√≥tese alguma o conceito do operador aritm√©tico DIV. A solu√ß√£o deve ser alcan√ßada com a utiliza√ß√£o de looping. Ou seja, o programa deve apresentar como resultado (quociente) quantas vezes o divisor cabe no dividendo.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
    dividendo, divisor, quociente, soma: inteiro
 inicio
    escreva("Digite o dividendo: ")
@@ -21,5 +21,6 @@ inicio
       soma <- soma + divisor
    fimenquanto
 
-   escreval("Resultado da divis„o inteira: ", quociente)
+   escreval("Resultado da divis√£o inteira: ", quociente)
+
 Fimalgoritmo
