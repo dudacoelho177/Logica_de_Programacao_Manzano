@@ -1,11 +1,11 @@
 Algoritmo "exercio_41_4e_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   : Efetuar a leitura de trÍs valores (vari·veis A, B e C) e efetuar o c·lculo da equaÁ„o completa de segundo grau, apresentando as duas raÌzes, se para os valores informados for possÌvel efetuar o referido c·lculo. Lembre-se de que a vari·vel A deve ser diferente de zero.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Efetuar a leitura de tr√™s valores (vari√°veis A, B e C) e efetuar o c√°lculo da equa√ß√£o completa de segundo grau, apresentando as duas ra√≠zes, se para os valores informados for poss√≠vel efetuar o referido c√°lculo. Lembre-se de que a vari√°vel A deve ser diferente de zero.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    n1, n2, n3, n4, exame, media, novaMedia: real
 inicio
    escreval("Digite as quatro notas: ")
@@ -14,7 +14,7 @@ inicio
    media <- (n1 + n2 + n3 + n4) / 4
 
    se media >= 7 entao
-      escreval("Aluno aprovado com mÈdia ", media:0:2)
+      escreval("Aluno aprovado com m√©dia ", media:0:2)
    senao
       escreval("Digite a nota do exame: ")
       leia(exame)
@@ -22,9 +22,10 @@ inicio
       novaMedia <- (media + exame) / 2
 
       se novaMedia >= 5 entao
-         escreval("Aluno aprovado em exame com mÈdia ", novaMedia:0:2)
+         escreval("Aluno aprovado em exame com m√©dia ", novaMedia:0:2)
       senao
-         escreval("Aluno reprovado com mÈdia ", novaMedia:0:2)
+         escreval("Aluno reprovado com m√©dia ", novaMedia:0:2)
       fimse
    fimse
+
 Fimalgoritmo
