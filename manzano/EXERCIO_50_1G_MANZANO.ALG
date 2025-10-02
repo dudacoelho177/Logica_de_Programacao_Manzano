@@ -1,11 +1,11 @@
 Algoritmo "exercio_50_1g_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que apresente como resultado o valor do fatorial dos valores ímpares situados na faixa numérica de 1 a 10.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que apresente como resultado o valor do fatorial dos valores Ã­mpares situados na faixa numÃ©rica de 1 a 10.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, j, fatorial: inteiro
 inicio
    para i de 1 ate 10 passo 2 faca
@@ -15,4 +15,5 @@ inicio
       fimpara
       escreval(i, "! = ", fatorial)
    fimpara
+
 Fimalgoritmo
