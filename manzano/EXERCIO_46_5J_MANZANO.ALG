@@ -1,11 +1,11 @@
 Algoritmo "exercio_46_5j_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que apresente os resultados da soma e da média aritmética dos valores pares situados na faixa numérica de 50 a 70.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que apresente os resultados da soma e da mÃ©dia aritmÃ©tica dos valores pares situados na faixa numÃ©rica de 50 a 70.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, soma, cont: inteiro
    media: real
 inicio
@@ -21,6 +21,7 @@ inicio
 
    media <- soma / cont
 
-   escreval("Somatório = ", soma)
-   escreval("Média = ", media:0:2)
+   escreval("SomatÃ³rio = ", soma)
+   escreval("MÃ©dia = ", media:0:2)
+
 Fimalgoritmo
