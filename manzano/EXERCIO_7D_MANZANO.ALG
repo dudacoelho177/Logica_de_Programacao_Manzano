@@ -1,17 +1,17 @@
 Algoritmo "exercio_7d_manzano"
-// Disciplina   Lógica de Programação
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jaison Costa 
-// Descrição   : Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Efetuar o cÃ¡lculo da quantidade de litros de combustÃ­vel gasta em uma viagem
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 tempos:real
 velocidade:real
 distancia, litros_usados: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o tempo: ")
 leia(tempos)
 escreva("Digite a velocidade: ")
@@ -20,7 +20,8 @@ leia(velocidade)
 distancia<- tempos*velocidade
 litros_usados<- distancia/12
 
-escreva("a velocidade media é de: ",velocidade," a distancia percorrida  foi de: ",distancia,"e foram usados: ",litros_usados," de gasolina")
+escreva("a velocidade media Ã© de: ",velocidade," a distancia percorrida  foi de: ",distancia,"e foram usados: ",litros_usados," de gasolina")
+
 
 
 Fimalgoritmo
