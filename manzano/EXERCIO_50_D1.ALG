@@ -1,11 +1,11 @@
 Algoritmo "exercio_50_d1"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa 
-// DescriÁ„o   : Elaborar um programa que efetue o c·lculo e no final apresente o somatÛrio do n˙mero de gr„os de trigo que se pode obter num tabuleiro de xadrez, obedecendo ‡ seguinte regra: colocar um gr„o de trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Elaborar um programa que efetue o c√°lculo e no final apresente o somat√≥rio do n√∫mero de gr√£os de trigo que se pode obter num tabuleiro de xadrez, obedecendo √† seguinte regra: colocar um gr√£o de trigo no primeiro quadro e nos quadros seguintes o dobro do quadro anterior.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
    total, graos: real
    i: inteiro
 inicio
@@ -15,5 +15,6 @@ inicio
       total <- total + graos
       graos <- graos * 2
    fimpara
-   escreval("Total de gr„os no tabuleiro: ", total)
+   escreval("Total de gr√£os no tabuleiro: ", total)
+
 Fimalgoritmo
