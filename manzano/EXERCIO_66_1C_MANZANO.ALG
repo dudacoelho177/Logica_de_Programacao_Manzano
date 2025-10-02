@@ -1,16 +1,17 @@
 Algoritmo "exercio_66_1c_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Apresentar o total da soma obtida dos cem primeiros números inteiros (1+2+3+4+...+98+99+100).
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar o total da soma obtida dos cem primeiros nÃºmeros inteiros (1+2+3+4+...+98+99+100).
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, soma: inteiro
 inicio
    soma <- 0
    para i de 1 ate 100 faca
       soma <- soma + i
    fimpara
-   escreval("Soma dos 100 primeiros números = ", soma)
+   escreval("Soma dos 100 primeiros nÃºmeros = ", soma)
+
 Fimalgoritmo
