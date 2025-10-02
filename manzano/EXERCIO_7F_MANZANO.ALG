@@ -1,15 +1,15 @@
 Algoritmo "exercio_7f_manzano"
-// Disciplina   Lógica de Programação]
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa
-// Descrição   : efetuar a troca dos valores de forma que a variável
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : efetuar a troca dos valores de forma que a variÃ¡vel
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    num1, num2, temp: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreva("Digite um numero A: ")
    leia(num1)
 
@@ -21,6 +21,7 @@ Inicio
    num2 <- temp
 
    escreva("A: ", num1, " B: ", num2)
+
 
 
 Fimalgoritmo
