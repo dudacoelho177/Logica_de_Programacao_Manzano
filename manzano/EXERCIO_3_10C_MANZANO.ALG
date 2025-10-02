@@ -1,11 +1,11 @@
 Algoritmo "exercio_3_10c_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   : Durante a apuraÁ„o dos votos foram computados votos nulos e votos em branco, alÈm dos votos v·lidos para cada candidato.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Durante a apura√ß√£o dos votos foram computados votos nulos e votos em branco, al√©m dos votos v√°lidos para cada candidato.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    votosA, votosB, votosC, votosNulos, votosBranco: inteiro
    total: inteiro
    percValidos, percA, percB, percC, percNulos, percBranco: real
@@ -36,10 +36,11 @@ inicio
    percBranco <- (votosBranco * 100) / total
 
    escreval("Total de eleitores: ", total)
-   escreval("Percentual de votos v·lidos: ", percValidos:0:2, "%")
+   escreval("Percentual de votos v√°lidos: ", percValidos:0:2, "%")
    escreval("Percentual de votos no candidato A: ", percA:0:2, "%")
    escreval("Percentual de votos no candidato B: ", percB:0:2, "%")
    escreval("Percentual de votos no candidato C: ", percC:0:2, "%")
    escreval("Percentual de votos nulos: ", percNulos:0:2, "%")
    escreval("Percentual de votos em branco: ", percBranco:0:2, "%")
+
 Fimalgoritmo
