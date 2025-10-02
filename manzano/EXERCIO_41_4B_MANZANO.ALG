@@ -1,19 +1,20 @@
 Algoritmo "exercio_41_4b_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa 
-// Descrição   : Efetuar a leitura de um valor inteiro positivo ou negativo e apresentar o número lido como sendo u seja, o programa deverá apresentar o módulo de um número fornecido. Lembre-se de verificar se o número fornecido é menor que zero; sendo, multiplique-o por -1.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Efetuar a leitura de um valor inteiro positivo ou negativo e apresentar o nÃºmero lido como sendo u seja, o programa deverÃ¡ apresentar o mÃ³dulo de um nÃºmero fornecido. Lembre-se de verificar se o nÃºmero fornecido Ã© menor que zero; sendo, multiplique-o por -1.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    n: inteiro
 inicio
-   escreval("Digite um número inteiro: ")
+   escreval("Digite um nÃºmero inteiro: ")
    leia(n)
 
    se n < 0 entao
       n <- n * -1
    fimse
 
-   escreval("O valor positivo (módulo) é: ", n)
+   escreval("O valor positivo (mÃ³dulo) Ã©: ", n)
+
 Fimalgoritmo
