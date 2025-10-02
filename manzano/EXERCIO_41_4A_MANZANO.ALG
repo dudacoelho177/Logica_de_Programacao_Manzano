@@ -1,11 +1,11 @@
 Algoritmo "exercio_41_4A_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa 
-// Descrição   : Diferenca Maior Menor
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Diferenca Maior Menor
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    x, y, dif: inteiro
 inicio
    escreval("Digite o primeiro valor: ")
@@ -19,5 +19,6 @@ inicio
       dif <- y - x
    fimse
 
-   escreval("A diferença do maior pelo menor é: ", dif)
+   escreval("A diferenÃ§a do maior pelo menor Ã©: ", dif)
+
 Fimalgoritmo
