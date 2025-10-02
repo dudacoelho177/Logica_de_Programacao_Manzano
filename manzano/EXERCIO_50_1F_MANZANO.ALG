@@ -1,11 +1,11 @@
 Algoritmo "exercio_50_1f_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa 
-// Descrição   : Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o total do somatório, a média aritmética e o total de valores lidos.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a leitura sucessiva de valores numÃ©ricos e apresente no final o total do somatÃ³rio, a mÃ©dia aritmÃ©tica e o total de valores lidos.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    valor, soma, contador: inteiro
    media: real
 inicio
@@ -22,8 +22,9 @@ inicio
 
    se contador > 0 entao
       media <- soma / contador
-      escreval("Soma = ", soma, " Média = ", media, " Total valores = ", contador)
+      escreval("Soma = ", soma, " MÃ©dia = ", media, " Total valores = ", contador)
    senao
       escreval("Nenhum valor positivo foi digitado.")
    fimse
+
 Fimalgoritmo
