@@ -1,11 +1,11 @@
 Algoritmo "exercio_66_1h_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que apresente como resultado o valor de uma potÃªncia de uma base qualquer elevada a um expoente qualquer
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    base, expoente, resultado, i: inteiro
 inicio
    escreva("Digite a base: ")
@@ -19,4 +19,5 @@ inicio
    fimpara
 
    escreval(base, " ^ ", expoente, " = ", resultado)
+
 Fimalgoritmo
