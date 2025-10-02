@@ -1,11 +1,11 @@
 Algoritmo "exercio_50_1i_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   : Elaborar um programa que efetue a leitura de valores positivos inteiros atÈ que um valor negativo seja informado. Ao final devem ser apresentados o maior e o menor valores informados pelo usu·rio.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Elaborar um programa que efetue a leitura de valores positivos inteiros at√© que um valor negativo seja informado. Ao final devem ser apresentados o maior e o menor valores informados pelo usu√°rio.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor, maior, menor: inteiro
    primeiro: logico
 inicio
@@ -33,6 +33,7 @@ inicio
       escreval("Maior valor: ", maior)
       escreval("Menor valor: ", menor)
    senao
-      escreval("Nenhum valor v·lido informado.")
+      escreval("Nenhum valor v√°lido informado.")
    fimse
+
 Fimalgoritmo
