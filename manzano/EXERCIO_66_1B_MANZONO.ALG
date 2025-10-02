@@ -1,17 +1,18 @@
 Algoritmo "exercio_66_1b_manzono"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa 
-// Descrição   : Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar os resultados de uma tabuada de multiplicar (de 1 atÃ© 10) de um nÃºmero qualquer.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 var i, n: inteiro
 inicio
-   escreva("Digite um número para ver a tabuada: ")
+   escreva("Digite um nÃºmero para ver a tabuada: ")
    leia(n)
 
    para i de 1 ate 10 faca
       escreval(n, " x ", i, " = ", n * i)
    fimpara
+
 Fimalgoritmo
