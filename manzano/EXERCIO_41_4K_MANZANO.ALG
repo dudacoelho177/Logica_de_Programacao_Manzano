@@ -1,17 +1,18 @@
 Algoritmo "exercio_41_4k_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que efetue a leitura de um determinado valor inteiro, e efetue a sua apresentação, caso o valor não seja maior que três
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a leitura de um determinado valor inteiro, e efetue a sua apresentaÃ§Ã£o, caso o valor nÃ£o seja maior que trÃªs
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n: inteiro
 inicio
-   escreval("Digite um número: ")
+   escreval("Digite um nÃºmero: ")
    leia(n)
 
    se n <= 3 entao
-      escreval("Número: ", n)
+      escreval("NÃºmero: ", n)
    fimse
+
 Fimalgoritmo
