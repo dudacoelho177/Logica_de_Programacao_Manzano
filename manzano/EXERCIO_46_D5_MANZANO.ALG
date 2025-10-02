@@ -1,11 +1,11 @@
 Algoritmo "exercio_46_d5_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20. Para verificar se o número é ímpar, efetuar dentro da malha a verificação lógica desta condição com a instrução, perguntando se o número é ímpar; sendo, mostre-o; não sendo, passe para o próximo passo.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar todos os valores numÃ©ricos inteiros Ã­mpares situados na faixa de 0 a 20. Para verificar se o nÃºmero Ã© Ã­mpar, efetuar dentro da malha a verificaÃ§Ã£o lÃ³gica desta condiÃ§Ã£o com a instruÃ§Ã£o, perguntando se o nÃºmero Ã© Ã­mpar; sendo, mostre-o; nÃ£o sendo, passe para o prÃ³ximo passo.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i: inteiro
 inicio
    para i de 0 ate 20 faca
@@ -13,4 +13,5 @@ inicio
          escreval(i)
       fimse
    fimpara
+
 Fimalgoritmo
