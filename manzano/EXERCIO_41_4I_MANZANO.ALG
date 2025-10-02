@@ -1,19 +1,20 @@
 Algoritmo "exercio_41_4i_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que efetue a leitura de um número inteiro e apresentar uma mensagem informando se o número é par ou ímpar.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a leitura de um nÃºmero inteiro e apresentar uma mensagem informando se o nÃºmero Ã© par ou Ã­mpar.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n: inteiro
 inicio
-   escreval("Digite um número: ")
+   escreval("Digite um nÃºmero: ")
    leia(n)
 
    se n mod 2 = 0 entao
-      escreval("O número é par.")
+      escreval("O nÃºmero Ã© par.")
    senao
-      escreval("O número é ímpar.")
+      escreval("O nÃºmero Ã© Ã­mpar.")
    fimse
+
 Fimalgoritmo
