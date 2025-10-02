@@ -1,14 +1,15 @@
 Algoritmo "exercio_50_1a_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i: inteiro
 inicio
    para i de 15 ate 200 faca
       escreval(i, "^2 = ", i*i)
    fimpara
+
 Fimalgoritmo
