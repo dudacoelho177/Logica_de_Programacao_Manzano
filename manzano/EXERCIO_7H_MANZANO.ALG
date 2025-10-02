@@ -1,15 +1,15 @@
 Algoritmo "exercio_7h_manzano"
-// Disciplina   Lógica de Programação]
+// Disciplina   LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jaison Costa
-// Descrição   : Elaborar um programa que calcule e apresente o volume de uma caixa retangular
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que calcule e apresente o volume de uma caixa retangular
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 18/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    comprimento, largura, altura, volume: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva("Digite o compremento da caixa: ")
    leia(comprimento)
@@ -19,6 +19,7 @@ Inicio
    leia(altura)
    volume<- comprimento*largura*altura
 
-   escreva("o volume da caixa é: ", volume)
+   escreva("o volume da caixa Ã©: ", volume)
+
 
 Fimalgoritmo
