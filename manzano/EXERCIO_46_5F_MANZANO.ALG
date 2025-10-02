@@ -1,11 +1,11 @@
 Algoritmo "exercio_46_5f_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que apresente como resultado o valor de uma potÃªncia de uma base qualquer elevada a um expoente qualquer, ou seja, de BE, em que B Ã© o valor da base e E o valor do expoente. Observe que neste exercÃ­cio nÃ£o pode ser utilizado o operador de exponenciaÃ§Ã£o do portuguol (^).
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    B, E, i, resultado: inteiro
 inicio
    escreval("Digite a base: ")
@@ -20,4 +20,5 @@ inicio
    fimpara
 
    escreval(B, " ^ ", E, " = ", resultado)
+
 Fimalgoritmo
