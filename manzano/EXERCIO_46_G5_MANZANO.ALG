@@ -1,11 +1,11 @@
 Algoritmo "exercio_46_g5_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Escreva um programa que apresente a série de Fibonacci até o décimo quinto termo. A série de Fibonacci é formada pela seqüência: 1, 1, 2, 3, 5, 8, 13, 21, 34, ..., etc.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Escreva um programa que apresente a sÃ©rie de Fibonacci atÃ© o dÃ©cimo quinto termo. A sÃ©rie de Fibonacci Ã© formada pela seqÃ¼Ãªncia: 1, 1, 2, 3, 5, 8, 13, 21, 34, ..., etc.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, t1, t2, t3: inteiro
 inicio
    t1 <- 1
@@ -19,4 +19,5 @@ inicio
       t1 <- t2
       t2 <- t3
    fimpara
+
 Fimalgoritmo
