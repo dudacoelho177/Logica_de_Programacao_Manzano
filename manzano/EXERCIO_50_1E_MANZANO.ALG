@@ -1,16 +1,16 @@
 Algoritmo "exercio_50_1e_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que efetue a leitura de 15 valores numéricos inteiros e no final apresente o total do somatório da fatorial de cada valor lido.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a leitura de 15 valores numÃ©ricos inteiros e no final apresente o total do somatÃ³rio da fatorial de cada valor lido.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, j, valor, fatorial, soma: inteiro
 inicio
    soma <- 0
    para i de 1 ate 15 faca
-      escreva("Digite o ", i, "º valor: ")
+      escreva("Digite o ", i, "Âº valor: ")
       leia(valor)
       fatorial <- 1
       para j de 1 ate valor faca
@@ -18,5 +18,6 @@ inicio
       fimpara
       soma <- soma + fatorial
    fimpara
-   escreval("Somatório dos fatoriais = ", soma)
+   escreval("SomatÃ³rio dos fatoriais = ", soma)
+
 Fimalgoritmo
