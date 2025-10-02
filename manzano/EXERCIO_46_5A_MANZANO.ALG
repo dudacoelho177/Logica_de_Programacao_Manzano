@@ -1,19 +1,20 @@
 Algoritmo "exercio_46_5a_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n, i: inteiro
 inicio
-   escreval("Digite um número para ver a tabuada: ")
+   escreval("Digite um nÃºmero para ver a tabuada: ")
    leia(n)
 
    para i de 1 ate 10 faca
       escreval(n, " x ", i, " = ", n * i)
    fimpara
+
 
 
 Fimalgoritmo
