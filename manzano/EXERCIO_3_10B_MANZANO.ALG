@@ -1,15 +1,15 @@
 Algoritmo "exercio_3_10b_manzano"
-// Disciplina : LÛgica de ProgramaÁ„o
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Jaison Costa
-// DescriÁ„o   : Reajuste de Salario
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Reajuste de Salario
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    SM, PR, NS: real
 
 inicio
-   escreval("Digite o sal·rio mensal: ")
+   escreval("Digite o sal√°rio mensal: ")
    leia(SM)
 
    escreval("Digite o percentual de reajuste (%): ")
@@ -17,5 +17,6 @@ inicio
 
    NS <- SM + (SM * PR / 100)
 
-   escreval("O novo sal·rio È: R$ ", NS:0:2)
+   escreval("O novo sal√°rio √©: R$ ", NS:0:2)
+
 Fimalgoritmo
