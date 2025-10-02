@@ -1,24 +1,25 @@
 Algoritmo "exercio_46_5i_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa 
-// Descrição   : Elaborar um programa que efetue a leitura de 10 valores numéricos e apresente no final o total do somatório e a média aritmética dos valores lidos.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a leitura de 10 valores numÃ©ricos e apresente no final o total do somatÃ³rio e a mÃ©dia aritmÃ©tica dos valores lidos.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    i, valor: inteiro
    soma, media: real
 inicio
    soma <- 0
 
    para i de 1 ate 10 faca
-      escreval("Digite o ", i, "º valor: ")
+      escreval("Digite o ", i, "Âº valor: ")
       leia(valor)
       soma <- soma + valor
    fimpara
 
    media <- soma / 10
 
-   escreval("Somatório = ", soma)
-   escreval("Média = ", media:0:2)
+   escreval("SomatÃ³rio = ", soma)
+   escreval("MÃ©dia = ", media:0:2)
+
 Fimalgoritmo
