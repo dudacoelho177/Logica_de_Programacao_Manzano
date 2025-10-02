@@ -1,18 +1,18 @@
 Algoritmo "exercio_46_5k_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Elaborar um programa que possibilite calcular a área total de uma residência (sala, cozinha, banheiro, quarto, área de serviço, quintal, garagem, etc.).
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Elaborar um programa que possibilite calcular a Ã¡rea total de uma residÃªncia (sala, cozinha, banheiro, quarto, Ã¡rea de serviÃ§o, quintal, garagem, etc.).
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    largura, comprimento, area, areaTotal: real
    nome, resposta: caractere
 inicio
    areaTotal <- 0
 
    repita
-      escreval("Digite o nome do cômodo: ")
+      escreval("Digite o nome do cÃ´modo: ")
       leia(nome)
 
       escreval("Digite a largura do ", nome, ": ")
@@ -24,11 +24,12 @@ inicio
       area <- largura * comprimento
       areaTotal <- areaTotal + area
 
-      escreval("Área do ", nome, " = ", area:0:2, " m²")
+      escreval("Ãrea do ", nome, " = ", area:0:2, " mÂ²")
 
       escreval("Deseja continuar (SIM/NAO)? ")
       leia(resposta)
    ate resposta = "NAO"
 
-   escreval("Área total da residência = ", areaTotal:0:2, " m²")
+   escreval("Ãrea total da residÃªncia = ", areaTotal:0:2, " mÂ²")
+
 Fimalgoritmo
