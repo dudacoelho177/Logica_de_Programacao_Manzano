@@ -1,11 +1,11 @@
 Algoritmo "exercio_66_1g_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar os resultados das potÃªncias de 3, variando do expoente 0 atÃ© o expoente 15. Deve ser considerado que qualquer nÃºmero elevado a zero Ã© 1, e elevado a 1 Ã© ele prÃ³prio.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i, potencia: inteiro
 inicio
    potencia <- 1
@@ -17,4 +17,5 @@ inicio
       fimse
       escreval("3 ^ ", i, " = ", potencia)
    fimpara
+
 Fimalgoritmo
