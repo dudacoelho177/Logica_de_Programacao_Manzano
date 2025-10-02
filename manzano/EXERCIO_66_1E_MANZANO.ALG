@@ -1,11 +1,11 @@
 Algoritmo "exercio_66_1e_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar todos os valores numÃ©ricos inteiros Ã­mpares situados na faixa de 0 a 20.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    i: inteiro
 inicio
    para i de 0 ate 20 faca
@@ -13,4 +13,5 @@ inicio
          escreval(i)
       fimse
    fimpara
+
 Fimalgoritmo
