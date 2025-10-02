@@ -1,11 +1,11 @@
 Algoritmo "exercio_41_4f_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Efetuar a leitura de três valores (variáveis A, B e C) e apresentá-los dispostos em ordem crescente.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Efetuar a leitura de trÃªs valores (variÃ¡veis A, B e C) e apresentÃ¡-los dispostos em ordem crescente.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    A, B, C: real
    delta, x1, x2: real
    
@@ -20,7 +20,7 @@ inicio
       delta <- B*B - 4*A*C
 
       se delta < 0 entao
-         escreval("Não existem raízes reais.")
+         escreval("NÃ£o existem raÃ­zes reais.")
       senao
          x1 <- (-B + raizq(delta)) / (2*A)
          x2 <- (-B - raizq(delta)) / (2*A)
@@ -28,4 +28,5 @@ inicio
          escreval("Raiz 2 = ", x2:0:2)
       fimse
    fimse
+
 Fimalgoritmo
