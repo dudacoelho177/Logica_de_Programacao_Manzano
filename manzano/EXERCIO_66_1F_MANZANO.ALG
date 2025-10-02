@@ -1,11 +1,11 @@
 Algoritmo "exercio_66_1f_manzano"
-// Disciplina : Lógica de Programação
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Jaison Costa
-// Descrição   : Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é divisível; sendo, mostre-o; não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Apresentar todos os nÃºmeros divisÃ­veis por 4 que sejam menores que 200. Para verificar se o nÃºmero Ã© divisÃ­vel por 4, efetuar dentro da malha a verificaÃ§Ã£o lÃ³gica desta condiÃ§Ã£o com a instruÃ§Ã£o se, perguntando se o nÃºmero Ã© divisÃ­vel; sendo, mostre-o; nÃ£o sendo, passe para o prÃ³ximo passo. A variÃ¡vel que controlarÃ¡ o contador deve ser iniciada com o valor 1.
+// Autor(a)    : Eduarda Coelho
 // Data atual  : 25/09/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contador: inteiro
 inicio
    contador <- 1
@@ -15,4 +15,5 @@ inicio
       fimse
       contador <- contador + 1
    fimenquanto
+
 Fimalgoritmo
